@@ -7,6 +7,9 @@ int main()
     cin>>a;
 for(int i =0;i<=a;i++)
 {
-    cout<<i<<endl;
+    if(i%2==0)
+    {
+        cout<<i<<endl;
+    }
 }
 }
